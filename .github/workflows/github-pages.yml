@@ -23,4 +23,3 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.REPO_TOKEN }}g@github.com/${{ github.repository }}
           npm run deploy
 
-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
