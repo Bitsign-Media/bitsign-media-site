@@ -1,0 +1,47 @@
+.terms {
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Quicksand', sans-serif;
+}
+
+.terms-wrapper {
+    text-align: center;
+    margin: 20px;
+}
+
+.terms-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.term-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.page-title {
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.title{
+    font-weight: 400;
+}
+
+.text{
+    font-weight: 300;
+}

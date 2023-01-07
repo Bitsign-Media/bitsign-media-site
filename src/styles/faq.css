@@ -1,0 +1,40 @@
+.faq {
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Quicksand', sans-serif;
+}
+
+.faq-wrapper {
+    text-align: center;
+    margin: 20px;
+}
+
+.page-title {
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+}
+
+.faq-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-item{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.question {
+    font-weight: 400;
+}
+
+.answer {
+    font-weight: 300;
+}
