@@ -37,6 +37,6 @@ export const termsAndConditions = [
   {
     title: "Limitation of Liability",
     explanation:
-      "We will not be liable for any damages of any kind arising from the use",
+      "We will not be liable for any damages of any kind arising from the use.",
   },
 ];
