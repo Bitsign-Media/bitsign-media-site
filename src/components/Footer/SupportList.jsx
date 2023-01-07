@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SupportList() {
   return (
@@ -6,19 +7,19 @@ export default function SupportList() {
       <h3>Support</h3>
       <div className="support-list">
         <div className="support-list-item">
-          <a href="/faq" className="support-list-item-link">
+          <Link className="support-list-item-link" to="/faq">
             FAQ
-          </a>
+          </Link>
         </div>
         <div className="support-list-item">
-          <a href="/privacy-policy" className="support-list-item-link">
+          <Link className="support-list-item-link" to="/privacy-policy">
             Privacy Policy
-          </a>
+          </Link>
         </div>
         <div className="support-list-item">
-          <a href="/terms-and-conditions" className="support-list-item-link">
+          <Link className="support-list-item-link" to="/terms-and-conditions">
             Terms & Conditions
-          </a>
+          </Link>
         </div>
       </div>
     </div>

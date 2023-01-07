@@ -1,24 +1,26 @@
 import "../../styles/links.css";
 
+import { Link } from "react-router-dom";
+
 export default function Links() {
   return (
     <div className="links">
       <div className="links-wrapper">
         <div className="links-list">
           <div className="links-list-item">
-            <a href="/" className="links-list-item-link">
+            <Link className="links-list-item-link" to="/">
               Home
-            </a>
+            </Link>
           </div>
           <div className="links-list-item">
-            <a href="/services" className="links-list-item-link">
+            <Link className="links-list-item-link" to="/services">
               Services
-            </a>
+            </Link>
           </div>
           <div className="links-list-item">
-            <a href="/contact" className="links-list-item-link">
+            <Link className="links-list-item-link" to="/contact">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </div>
