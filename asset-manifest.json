@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bitsign-media-site/static/css/main.bd0d90a5.css",
+    "main.js": "/bitsign-media-site/static/js/main.62bec2ed.js",
+    "index.html": "/bitsign-media-site/index.html",
+    "main.bd0d90a5.css.map": "/bitsign-media-site/static/css/main.bd0d90a5.css.map",
+    "main.62bec2ed.js.map": "/bitsign-media-site/static/js/main.62bec2ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd0d90a5.css",
+    "static/js/main.62bec2ed.js"
+  ]
+}
